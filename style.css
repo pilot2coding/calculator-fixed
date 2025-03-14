@@ -1,0 +1,43 @@
+body{
+    background-color: #1C1C1C;
+    font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+}
+
+#calculator{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+button{
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 5px;
+    justify-items: center;
+    border: none;
+}
+
+#screen{
+    color: white;
+    text-align: center;
+    width: 100px;
+    font-size: 50px;
+}
+
+.operation, .delete{
+    background-color: #FF9500;
+    color: white;
+}
+
+.all-clear, .plus-minus, .percentage{
+    background-color: #D4D4D2;
+}
+
+.number, .decimal-point, .equals{
+    background-color: #505050;
+    color: #D4D4D2;
+}
